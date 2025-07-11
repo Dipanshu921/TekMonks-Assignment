@@ -5,7 +5,7 @@
 
 └── server/
 
-  ├── server.js  #Entry point
+  ├── server.js  
   
   └── src/
   
@@ -22,16 +22,14 @@ This is my submission for TekMonks' Backend Assignment. The task was to:
 
 - Build a simple HTTP server (no frameworks)
 - Fetch the latest 6 stories from [Time.com](https://time.com)
-- Return the results in clean JSON format via a `GET` API
+- Return the results in JSON format via a `GET` API
 
 ### Constraints Followed
 
-- No external libraries (no Axios, Cheerio, Express, etc.)
+- No external libraries.
 - Used only Node.js built-in modules
 - Parsed RSS/XML manually using regex
 - Organized the code using clean file structure
-
----
 
 ## How to Run
 
