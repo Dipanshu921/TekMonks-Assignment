@@ -2,12 +2,19 @@
 
 ## Project Structure
 ├── package.json
+
 └── server/
+
   ├── server.js  #Entry point
+  
   └── src/
+  
     └── service/
+    
      ├── fetchStories.js 
+     
      └── extractStories.js 
+     
      
 ## About the Project
 
