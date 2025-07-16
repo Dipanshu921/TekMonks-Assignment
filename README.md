@@ -1,20 +1,22 @@
 # TekMonks Backend Assignment Submission
 
-## Project Structure
+## 📁 Project Structure
+
+```
+server/
+├── src/
+│   └── api/
+│       └── v1/
+│           ├── controllers/
+│           │   └── storyController.js
+│           ├── routes/
+│           │   └── storyRoute.js
+│           └── services/
+│               └── extract.js
+├── app.js
+├── server.js
 ├── package.json
-
-└── server/
-
-  ├── server.js  
-  
-  └── src/
-  
-    └── service/
-    
-     ├── fetchStories.js 
-     
-     └── extractStories.js 
-     
+```
      
 ## About the Project
 
@@ -26,9 +28,7 @@ This is my submission for TekMonks' Backend Assignment. The task was to:
 
 ### Constraints Followed
 
-- No external libraries.
-- Used only Node.js built-in modules
-- Parsed RSS/XML manually using regex
+- No external libraries for Data Parsing
 - Organized the code using clean file structure
 
 ## How to Run
@@ -54,5 +54,4 @@ GET http://localhost:3000/getTimeStories
   ...
 ]
 
-## Note
-This solution uses Time.com’s feed (https://time.com/feed/) since the main site is dynamically rendered using JavaScript.
+
